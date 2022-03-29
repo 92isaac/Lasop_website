@@ -1,0 +1,50 @@
+.nav-item{
+    padding-left: 30px;
+}
+.navbar{
+    background-color: #E5E5E5;
+}
+
+.navigation span{
+    z-index: 1;
+}
+
+.new{
+    color: red;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.menu{
+    width: 500px!important;
+}
+
+.nav-item .active {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+  }
+
+  .dropdown-menu{
+      min-width: 450px !important;
+      
+  }
+
+  .men{
+    margin-top: 20px!important;
+    margin-left: -150px !important;
+  }
+
+  .dropdown-menu.about{
+      min-width: 50px !important;
+  }
+
+  .index{
+      /* background:#11a3e3 !important; */
+      color: white !important;
+      z-index: 10000;
+  }

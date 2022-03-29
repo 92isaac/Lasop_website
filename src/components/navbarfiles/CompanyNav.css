@@ -1,0 +1,39 @@
+.nav{
+    background-color:#11A3E3 !important;
+
+
+}
+
+
+.men{
+    margin-top: 20px!important;
+    margin-left: -150px !important;
+  }
+  
+.nav-item{
+padding-left: 30px;
+
+}
+/* .nav-link {
+    color: #ffffff!important;
+} */
+  .navbar-toggler-icon{
+      background-color: black!important;
+  }
+.navigation span{
+z-index: 1;
+}
+
+.nav-item .active {
+text-decoration: underline;
+text-decoration-color: red;
+text-decoration-thickness: 3px;
+}
+
+.dropdown-menu{
+    min-width: 450px !important;
+}
+
+.dropdown-menu.about{
+    min-width: 50px !important;
+}

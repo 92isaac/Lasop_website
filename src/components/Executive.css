@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200;1,300&display=swap');
+
+  .ground{
+      background-color: #f1f1f1;
+  }
+.director{
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.general{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px 100px;
+}
+
+.director h5{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.man img{
+    width: 500px;
+    height: 500px;
+}
+
+.desc{
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 50px;
+    height:450px ;
+    overflow: hidden;
+}
+
+
+@media (max-width:1200px){
+    .director{
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    
+    .general{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 50px 100px;
+    }
+    
+    .director h5{
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    
+    .man img{
+        width: 450px;
+        height: 450px;
+    }
+    
+    .desc{
+        margin-left: 50px;
+        font-size: 15px;
+        margin-top: 50px;
+        height:400px ;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:1000px){
+    .director{
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    
+    .general{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 50px 100px;
+    }
+    
+    .director h5{
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    
+    .man img{
+        width: 400px;
+        height: 450px;
+        float: left;
+    }
+    
+    .desc{
+        margin-left: 50px;
+        font-size: 15px;
+        margin-top: 50px;
+        height:400px ;
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width:991px){
+    .director{
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    
+    .general{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 50px 100px;
+    }
+    
+    .director h5{
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    
+    .man img{
+        width: 400px;
+        height: 400px;
+        float: left;
+        margin-top: 80px;
+    }
+    
+    .desc{
+        margin-left: 50px;
+        font-size: 15px;
+        margin-top: 50px;
+        height:400px ;
+        overflow-y: scroll;
+        /* object-fit: contain; */
+        width: 400px;
+    }
+}
+
+@media (max-width:768px){
+    .director{
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    
+    .general{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 50px 50px;
+    }
+    
+    .director h5{
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    
+    .man img{
+        width: 300px;
+        height: 300px;
+        float: left;
+        margin-top: 200px;
+    }
+    
+    .desc{
+        margin-left: 50px;
+        font-size: 15px;
+        margin-top: 100px;
+        height:400px ;
+        overflow-y: scroll;
+        /* object-fit: contain; */
+        width: 250px;
+    }
+
+    .desc h6{
+        display: none;
+    }
+
+    .desc h3{
+        /* margin-left: -50px; */
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:500px){
+    .director{
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    
+    .general{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 50px 30px;
+    }
+    
+    .director h5{
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    
+    .man img{
+        width: 350px;
+        height: 300px;
+        float: left;
+        margin-top: 0;
+    }
+    
+    .desc{
+        margin-left: 20px;
+        font-size: 15px;
+        margin-top: 100px;
+        height:400px ;
+        /* overflow-y: scroll; */
+        /* object-fit: contain; */
+        width: 300px;
+    }
+
+    .desc h6{
+        display: none;
+    }
+
+    .desc h3{
+        /* margin-left: -50px; */
+        margin-bottom: 30px;
+    }
+}

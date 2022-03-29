@@ -1,0 +1,25 @@
+.web-logo{
+    background:  linear-gradient(to bottom, rgb(178, 223, 241), rgb(195, 232, 248)), url(../../images/html.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg-blue{
+    background-color: #11A3E3;
+
+}
+
+.course p{
+    font-size: 13px;
+    color: #fff;
+}
+
+.course h4{
+    font-size: 18px;
+    color: #fff;
+
+}
+.course a{
+    font-size: 13px;
+    color: #fff;
+}
