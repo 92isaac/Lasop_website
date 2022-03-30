@@ -23,6 +23,7 @@
 
 .dropdown-item{
     margin-bottom: 30px;
+    color: black!important;
 }
 
 
@@ -42,10 +43,10 @@
       border: none!important;
   }
 
-  .men{
+  /* .men{
     margin-top: 20px!important;
     margin-left: -150px !important;
-  }
+  } */
 
   .new{
     color: red;
@@ -60,6 +61,14 @@
       width: 500px!important;
   }
 
-  .dropdown-menu.about{
+  .dropdown-menu.above{
       min-width: 50px !important;
+  }
+
+
+  @media(max-width:578px){
+      .menu{
+          width: 300px!important;
+          margin-left: -90px!important;
+      }
   }

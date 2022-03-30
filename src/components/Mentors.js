@@ -1,6 +1,6 @@
 import React from 'react'
 import MAN from '../images/unsplash_RiDxDgHg7pw.png'
-import './Mentors.css'
+import './Team2.css'
 import Dictionary1 from './Dictionary1'
 import Expert from './Expert'
 import NavBar from './navbarfiles/NavBar'
@@ -19,25 +19,70 @@ const Career =(food) =>{
 
 function Mentors() {
   return (
-    <div className='all'>
+    <div>
+    
         <NavBar/>
-         <div className='had'>
-            <h5>The course mentors</h5>
+        <div div className='all'>
+         <div className='container'>
+         <div className='row text-center pt-5'>
+            <h2 className='header5'>The course mentors</h2>
             <h3>Meet our team of experts</h3>
-        </div>
-
-        <div className='bod'>
-            {/* <div>
-                <img src={MAN} alt=''className=''/>
-           <h5>Renee Kling</h5>
-           <h4>CEO and founder</h4>
-            </div> */}
-        {
-            Dictionary1.map(Career)
-        }
+        
+         
+        <div className='col-sm-12 col-md-6 col-lg-4 mt-5'>
+          <img src={MAN} alt='man' className='man'/>
+       
+          <h5 className='bold'>Ajala Tumininu</h5>
+          <h4 className='faint'>CEO & Founder</h4>
        </div>
+        <div className='col-sm-12 col-md-6 col-lg-4 mt-5'>
+          <img src={MAN} alt='man' className='man'/>
+       
+          <h5 className='bold'>Ajala Tumininu</h5>
+          <h4 className='faint'>CEO & Founder</h4>
+       </div>
+        <div className='col-sm-12 col-md-6 col-lg-4 mt-5'>
+          <img src={MAN}  alt='man' className='man'/>
+       
+          <h5 className='bold'>Ajala Tumininu</h5>
+          <h4 className='faint'>CEO & Founder</h4>
+       </div>
+        <div className='col-sm-12 col-md-6 col-lg-4 mt-5'>
+          <img src={MAN}  alt='man' className='man'/>
+       
+          <h5 className='bold'>Ajala Tumininu</h5>
+          <h4 className='faint'>CEO & Founder</h4>
+       </div>
+        <div className='col-sm-12 col-md-6 col-lg-4 mt-5'>
+          <img src={MAN}  alt='man' className='man'/>
+       
+          <h5 className='bold'>Ajala Tumininu</h5>
+          <h4 className='faint'>CEO & Founder</h4>
+       </div>
+        <div className='col-sm-12 col-md-6 col-lg-4 mt-5'>
+          <img src={MAN}  alt='man' className='man'/>
+       
+          <h5 className='bold'>Ajala Tumininu</h5>
+          <h4 className='faint'>CEO & Founder</h4>
+       </div>
+        <div className='col-sm-12 col-md-6 col-lg-4 mt-5'>
+          <img src={MAN}  alt='man' className='man'/>
+          <h5 className='bold'>Ajala Tumininu</h5>
+          <h4 className='faint'>CEO & Founder</h4>
+       </div>
+        <div className='col-sm-12 col-md-6 col-lg-4 mt-5'>
+          <img src={MAN}  alt='man' className='man'/>
+       
+          <h5 className='bold'>Ajala Tumininu</h5>
+          <h4 className='faint'>CEO & Founder</h4>
+       </div>
+        
+       </div>
+    </div>
+    </div>
     </div>
   )
 }
+
 
 export default Mentors

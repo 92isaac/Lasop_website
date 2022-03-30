@@ -5,10 +5,10 @@
 }
 
 
-.men{
+/* .men{
     margin-top: 20px!important;
     margin-left: -150px !important;
-  }
+  } */
   
 .nav-item{
 padding-left: 30px;
@@ -34,6 +34,12 @@ text-decoration-thickness: 3px;
     min-width: 450px !important;
 }
 
-.dropdown-menu.about{
+.dropdown-menu.above{
     min-width: 50px !important;
+}
+
+
+.dropdown-item{
+    margin-bottom: 30px;
+    color: black!important;
 }

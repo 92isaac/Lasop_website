@@ -32,11 +32,11 @@ const ContactNav = () => {
       <ul className="navbar-nav ms-auto index" >
         <li className="nav-item"  >
           <NavLink to="/"  className={({ isActive }) => (isActive ? 'active nav-link' : 'nav-link')}
-                onClick={click ? handleClick : null} aria-current="page" style={{color:'#ffffff'}}> Home </NavLink>
+                onClick={click ? handleClick : null} aria-current="page" style={{color:'#000'}}> Home </NavLink>
         </li>
         <li className="nav-item dropdown">
           <NavLink to="Courses" className={({ isActive }) => (isActive ? 'active nav-link dropdown-toggle' : 'nav-link dropdown-toggle')}
-                onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#ffffff'}}>
+                onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#000'}}>
             Courses
           </NavLink>
           <ul className="dropdown-menu menu men " aria-labelledby="navbarDropdownMenuLink">
@@ -57,10 +57,10 @@ const ContactNav = () => {
         </li>
         <li className="nav-item dropdown">
           <NavLink to="About-Us" className={({ isActive }) => (isActive ? 'active nav-link dropdown-toggle' : 'nav-link dropdown-toggle')}
-                onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#ffffff'}}>
+                onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#000'}}>
             About Us
           </NavLink>
-          <ul className="dropdown-menu about" aria-labelledby="navbarDropdownMenuLink">
+          <ul className="dropdown-menu above" aria-labelledby="navbarDropdownMenuLink" style={{marginTop:'20px'}}>
            <div  className="row">
              <label style={{color:'#11A3E3',marginLeft:'20px',marginBottom:'10px',fontWeight:'bolder',fontSize:'12px'}}>ABOUT US</label>
              <div className="col-md-6">
@@ -77,11 +77,11 @@ const ContactNav = () => {
         </li>
         <li className="nav-item">
           <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active nav-link' : 'nav-link')}
-                onClick={click ? handleClick : null} style={{color:'#ffffff'}}>Contact us  |</NavLink>
+                onClick={click ? handleClick : null} style={{color:'#000'}}>Contact us  |</NavLink>
         </li>
         <li className="nav-item">
           <NavLink to="/blog" className={({ isActive }) => (isActive ? 'active nav-link' : 'nav-link')}
-                onClick={click ? handleClick : null} style={{color:'#ffffff'}} >  Blog</NavLink>
+                onClick={click ? handleClick : null} style={{color:'#000'}} >  Blog</NavLink>
         </li>
       </ul>
     </div>

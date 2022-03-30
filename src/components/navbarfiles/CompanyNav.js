@@ -62,7 +62,7 @@ const CompanyNav = () => {
                     onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#ffffff'}}>
                 About Us
               </NavLink>
-              <ul className="dropdown-menu about" aria-labelledby="navbarDropdownMenuLink">
+              <ul className="dropdown-menu above" aria-labelledby="navbarDropdownMenuLink" style={{marginTop:'20px'}}>
                <div  className="row">
 
                <label style={{color:'#11A3E3',marginLeft:'20px',marginBottom:'10px',fontWeight:'bolder',fontSize:'12px'}}>ABOUT US</label>

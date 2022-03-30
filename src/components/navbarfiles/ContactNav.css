@@ -19,9 +19,9 @@
 }
 
 
-.menu{
+/* .menu{
     width: 500px!important;
-}
+} */
 
 .nav-item .active {
     text-decoration: underline;
@@ -34,14 +34,19 @@
       
   }
 
-  .men{
+  /* .men{
     margin-top: 20px!important;
     margin-left: -150px !important;
-  }
+  } */
 
-  .dropdown-menu.about{
+  .dropdown-menu.above{
       min-width: 50px !important;
   }
+
+  .dropdown-item{
+    margin-bottom: 30px;
+    color: black!important;
+}
 
   .index{
       /* background:#11a3e3 !important; */

@@ -20,7 +20,7 @@ const NavBar = () => {
   const Close = () => setClick(false);
 
   return (
- <div >
+ <div className={click ? "main-container" : ""}  onClick={()=>Close()}>
 
 <nav className="navbar navbar-expand-lg " onClick={e => e.stopPropagation()}>
   <div className="container-fluid mx-5">
@@ -34,7 +34,7 @@ const NavBar = () => {
           <NavLink to="/"  className={({ isActive }) => (isActive ? 'active nav-link' : 'nav-link')}
                 onClick={click ? handleClick : null} aria-current="page" > Home </NavLink>
         </li>
-        <li className="nav-item dropdown" data-bs-autoclose="outside">
+        <li className="nav-item dropdown">
           <NavLink to="Courses" className={({ isActive }) => (isActive ? 'active nav-link dropdown-toggle' : 'nav-link dropdown-toggle')}
                 onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Courses
@@ -55,12 +55,12 @@ const NavBar = () => {
            </div>
           </ul>
         </li>
-        <li className="nav-item dropdown" data-bs-autoclose="outside">
+        <li className="nav-item dropdown">
           <NavLink to="About-Us" className={({ isActive }) => (isActive ? 'active nav-link dropdown-toggle' : 'nav-link dropdown-toggle')}
                 onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About Us
           </NavLink>
-          <ul className="dropdown-menu about" aria-labelledby="navbarDropdownMenuLink">
+          <ul className="dropdown-menu above" aria-labelledby="navbarDropdownMenuLink" style={{marginTop:'20px'}}>
            <div  className="row">
 
            <label style={{color:'#11A3E3',marginLeft:'20px',marginBottom:'10px',fontWeight:'bolder',fontSize:'12px'}}>ABOUT US</label>

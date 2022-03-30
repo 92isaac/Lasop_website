@@ -12,6 +12,7 @@ import Team2 from './components/Team2'
 import Mentors from './components/Mentors'
 import Blog from './components/pages/Blog'
 import Apply from './components/appFormfiles/Apply'
+import Flutterwave from './components/Flutterwave'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 <Routes>
 <Route path="/" element={ <Home/> } />
 <Route path="/fullstack" element={ <Fullstack/> } />
+<Route path="/flutterwave" element={ <Flutterwave/> } />
 <Route path="/FAQPage" element={ <FAQPage/> } />
 {/* <Route path="/" element={ <Home/> } /> */}
 <Route path="/company" element={ <Company/> } />
