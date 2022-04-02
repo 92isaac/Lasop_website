@@ -33,10 +33,10 @@ const Modal =(props)=>{
                     <option value="3">Ogba3</option>
                 </select>
               </div>
-            </form>
-          </div>
           <div className="modal-footer">
             <button type="submit" className="btn btn-outline-primary">Continue</button>
+          </div>
+            </form>
           </div>
         </div>
       </div>

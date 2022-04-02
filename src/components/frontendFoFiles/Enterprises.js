@@ -1,6 +1,5 @@
 import React from 'react'
-// import Button from '../commonfiles/Button'
-import Modal from '../commonfiles/Modal';
+import Button from '../commonfiles/Button';
 
 
 
@@ -81,21 +80,26 @@ For full information, read our visa information for international students page.
                 />
                 </div> */}
 
-<div className="col-md-6 ">
+<div className="row mt-5">
+                <div className="col-md-3">
 
-<Modal 
-    className="btn btn-light"
-    btnName="Apply Now: Weekday"
-/>
-</div>
-<div className="col-md-6 ">
+                    <Button 
+                        class="white_button"
+                        btnName="Apply Now: Weekday"
+                        link="/apply"
+                    />
+                </div>
+                <div className="col-md-3 ">
 
 
-<Modal 
-className="btn btn-blue border-white text-light"
-btnName="Apply Now: Weekend"
-/>
-</div>
+                <Button
+                    class="blue_button"
+                    btnName="Apply Now: Weekend"
+                    link="/apply"
+
+                    />
+                </div>
+            </div>
             </div>
         </div>
     </div>

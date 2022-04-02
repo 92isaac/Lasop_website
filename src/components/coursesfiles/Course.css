@@ -1,7 +1,13 @@
+.coursesection{
+    min-height: 50vh;
+
+}
+
 .web-logo{
-    background:  linear-gradient(to bottom, rgb(178, 223, 241), rgb(195, 232, 248)), url(../../images/html.png);
+    background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../../images/html.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: calc(120%);
+    background-position: center;
 }
 
 .bg-blue{
@@ -9,17 +15,47 @@
 
 }
 
+.spacing{
+    margin: 0;
+    text-decoration: none;
+    padding-bottom: 0;
+}
+
 .course p{
     font-size: 13px;
     color: #fff;
+    padding-bottom: 0;
+    margin-bottom: 7px;
 }
 
-.course h4{
-    font-size: 18px;
+.course h5{
+    font-size: 15px;
     color: #fff;
 
 }
 .course a{
-    font-size: 13px;
+    font-size: 11px;
     color: #fff;
+}
+
+@media screen and (min-width: 768px){
+    .coursesection .imade img{
+        height: 100% !important;
+    }
+
+    .course p, .course h5{
+        font-size: 95%;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+
+    .course p, .course h5{
+        font-size: 95%;
+    }
+
+    .course{
+        margin-bottom: 10px;
+    }
 }

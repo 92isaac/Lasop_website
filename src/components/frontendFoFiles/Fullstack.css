@@ -6,8 +6,25 @@
 }
 
 .fullstackNavbar{
-    background: #11A3E3;
+    background: #11A3E3 !important;
 }
+
+.white_button{
+    background-color: #f1f1f1;
+    color:#11A3E3;
+    border: none;
+}
+.blue_button a{
+    color: #fff;
+}
+
+.blue_button{
+    color: #fff;
+    background-color: #11A3E3;
+    border: 1px solid #fff;
+
+}
+
 
 .paddingLeft{
 
@@ -39,6 +56,22 @@ video{
 }
 
 .herotext{
-    background: #e5e5e5;
+    background: #f1f1f1;
     
+}
+
+.container li{
+    list-style-type: none;
+}
+
+
+.container li a{
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.activ{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
 }

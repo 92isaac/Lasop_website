@@ -1,25 +1,22 @@
-import React from 'react';
-import './Fullstack.css';
-import FullstackNav from './FullstackNav';
-import FullstackHero from './FullstackHero';
+import React from 'react'
+import FullstackHero from './FullstackHero'
+import FullstackNav from './FullstackNav'
 import HeroTextSection from './HeroTextSection';
 import CourseStructure from './CourseStructure';
 import Enterprises from './Enterprises';
 import Framework from './Framework';
 
-
-
-const Fullstack =()=>{
-    return <div>
+const UiUx = () => {
+  return (
+    <div>
         <FullstackNav />
-        <FullstackHero 
-        title='Fullstack Web Development'
-        />
+        <FullstackHero title="UI/UX Design" />
         <HeroTextSection />
         <CourseStructure />
         < Enterprises/>
         <Framework />
     </div>
+  )
 }
 
-export default Fullstack;
+export default UiUx

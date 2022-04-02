@@ -27,11 +27,6 @@ function Mentors() {
         </div>
 
         <div className='bod'>
-            {/* <div>
-                <img src={MAN} alt=''className=''/>
-           <h5>Renee Kling</h5>
-           <h4>CEO and founder</h4>
-            </div> */}
         {
             Dictionary1.map(Career)
         }

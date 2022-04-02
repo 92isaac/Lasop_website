@@ -1,10 +1,9 @@
-import React from 'react'
 import MAN from '../images/unsplash_RiDxDgHg7pw.png'
 
 const Dictionary1=  [
 {
     careerImg:MAN,
-    careerName:'Sangodare Isaac',
+    careerName:'Shuiab David',
     careerTitle:'CEO and Founder'
 },
 {
@@ -19,32 +18,32 @@ const Dictionary1=  [
 },
 {
     careerImg:MAN,
-    careerName:'Sangodare Isaac',
+    careerName:'Barack Obama',
     careerTitle:'CEO and Founder'
 },
 {
     careerImg:MAN,
-    careerName:'Sangodare Isaac',
+    careerName:'Mega 99',
     careerTitle:'CEO and Founder'
 },
 {
     careerImg:MAN,
-    careerName:'Sangodare Isaac',
+    careerName:'Desmond Eliot',
     careerTitle:'CEO and Founder'
 },
 {
     careerImg:MAN,
-    careerName:'Sangodare Isaac',
+    careerName:'George Bush',
     careerTitle:'CEO and Founder'
 },
 {
     careerImg:MAN,
-    careerName:'Sangodare Isaac',
+    careerName:'Isaac Newton',
     careerTitle:'CEO and Founder'
 },
 {
     careerImg:MAN,
-    careerName:'Sangodare Isaac',
+    careerName:'John Doe',
     careerTitle:'CEO and Founder'
 },
 

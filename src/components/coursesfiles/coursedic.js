@@ -16,41 +16,41 @@ const coursedic =[
     },
     {
         courseImg: App,
-        courseTitle: "Fullstack Web Development",
+        courseTitle: "App Development",
         courseDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ",
-        courseLink: "/",
+        courseLink: "/appdevelopment",
         courseLinkTitle: "Check Course Details",
 
     },
     {
         courseImg: Frontend,
-        courseTitle: "Fullstack Web Development",
+        courseTitle: "Frontend Web Development",
         courseDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ",
-        courseLink: "/",
+        courseLink: "/frontend",
         courseLinkTitle: "Check Course Details",
 
     },
     {
         courseImg: Backend,
-        courseTitle: "Fullstack Web Development",
+        courseTitle: "Backend Development",
         courseDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ",
-        courseLink: "/",
+        courseLink: "/backend",
         courseLinkTitle: "Check Course Details",
 
     },
     {
         courseImg: Uiux,
-        courseTitle: "Fullstack Web Development",
+        courseTitle: "UI / UX Design",
         courseDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ",
-        courseLink: "/",
+        courseLink: "/uiuxdesign",
         courseLinkTitle: "Check Course Details",
 
     },
     {
         courseImg: Machine,
-        courseTitle: "Fullstack Web Development",
+        courseTitle: "Machine Learning",
         courseDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ",
-        courseLink: "/",
+        courseLink: "/machinelearning",
         courseLinkTitle: "Check Course Details",
 
     },

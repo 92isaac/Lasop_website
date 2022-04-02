@@ -2,6 +2,16 @@ import React, { useState } from 'react'
 import '../navbarfiles/Navabar.css'
 import  Logo from '../../images/logo.png'
 import { NavLink } from 'react-router-dom'
+import  ICON from '../../images/Icon1.png'
+import  ICON1 from '../../images/Icon2.png'
+import  ICON2 from '../../images/Icon3.png'
+import  ICON3 from '../../images/Icon4.png'
+import  ICON4 from '../../images/Icon.png'
+import  ICON5 from '../../images/Icon5.png'
+import  ICON6 from '../../images/Icon6.png'
+import  ICON7 from '../../images/Icon7.png'
+import  ICON8 from '../../images/Icon8.png'
+import  ICON9 from '../../images/Icon9.png'
 
 const FullstackNav = () => {
 
@@ -24,47 +34,54 @@ const FullstackNav = () => {
           <NavLink to="/"  className={({ isActive }) => (isActive ? 'active nav-link text-light' : 'nav-link text-light')}
                 onClick={click ? handleClick : null} aria-current="page" > Home </NavLink>
         </li>
-        <li className="nav-item dropdown" data-bs-autoclose="outside">
-          <NavLink to="Courses" className={({ isActive }) => (isActive ? 'active nav-link dropdown-toggle text-light' : 'nav-link dropdown-toggle text-light')}
+        <li className="nav-item dropdown" data-bs-autoClose="outside">
+          <NavLink to="Courses" className={({ isActive }) => (isActive ? 'active nav-link dropdown-toggle' : 'nav-link dropdown-toggle')}
                 onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Courses
           </NavLink>
-          <ul className="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+          <ul className="dropdown-menu menu men " aria-labelledby="navbarDropdownMenuLink">
            <div  className="row">
+             <span className='new'>We offer...</span>
              <div className="col-md-6">
-             <li><NavLink to="/action" className="dropdown-item" >Action</NavLink></li>
-            <li><NavLink to="/another" className="dropdown-item" >Another action</NavLink></li>
-            <li><NavLink to="/sometext" className="dropdown-item" >Something else here</NavLink></li>
+             <li><NavLink to="/fullstack" className="dropdown-item" > <img src={ICON4} alt='' className='icons'/>Full-Stack Development</NavLink></li>
+            <li><NavLink to="/frontend" className="dropdown-item" > <img src={ICON5} alt='' className='icons'/>Frontend Web Development</NavLink></li>
+            <li><NavLink to="/uiuxdesign" className="dropdown-item" ><img src={ICON6} alt='' className='icons'/>UI/UX Design</NavLink></li>
              </div>
              <div className="col-md-6">
-             <li><NavLink to="/action" className="dropdown-item" >Action</NavLink></li>
-            <li><NavLink to="/another" className="dropdown-item" >Another action</NavLink></li>
-            <li><NavLink to="/sometext" className="dropdown-item" >Something else here</NavLink></li>
+             <li><NavLink to="/appdevelopment" className="dropdown-item" ><img src={ICON7} alt='' className='icons'/>App Development</NavLink></li>
+            <li><NavLink to="/backend" className="dropdown-item" ><img src={ICON8} alt='' className='icons'/>Backend Web Development</NavLink></li>
+            <li><NavLink to="/machinelearning" className="dropdown-item" ><img src={ICON9} alt='' className='icons'/>Machine Learning</NavLink></li>
              </div>
            </div>
           </ul>
         </li>
-        <li className="nav-item dropdown" data-bs-autoclose="outside">
-          <NavLink to="About-Us" className={({ isActive }) => (isActive ? 'active nav-link dropdown-toggle text-light' : 'nav-link dropdown-toggle text-light')}
+        <li className="nav-item dropdown" data-bs-auto-close="outside">
+          <NavLink to="/About-Us" className={({ isActive }) => (isActive ? 'active nav-link dropdown-toggle' : 'nav-link dropdown-toggle')}
                 onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About Us
           </NavLink>
           <ul className="dropdown-menu about" aria-labelledby="navbarDropdownMenuLink">
            <div  className="row">
+
+           <label style={{color:'#11A3E3',marginLeft:'20px',marginBottom:'10px',fontWeight:'bolder',fontSize:'12px'}}>ABOUT US</label>
              <div className="col-md-6">
-             <li><NavLink to="/action" className="dropdown-item" >Action</NavLink></li>
-            <li><NavLink to="/another" className="dropdown-item" >Another action</NavLink></li>
-            <li><NavLink to="/sometext" className="dropdown-item" >Something else here</NavLink></li>
+             <li><NavLink to="/company" className="dropdown-item" > <img src={ICON} alt='' className='icon'/>The Company</NavLink></li>
+            <li><NavLink to="/team" className="dropdown-item" ><img src={ICON1} alt='' className='icon'/>The Team</NavLink></li>
+            <li><NavLink to="/mentor" className="dropdown-item" ><img src={ICON2} alt='' className='icon'/>The Mentors</NavLink></li>
+            <li><NavLink to="/director" className="dropdown-item" ><img src={ICON3} alt='' className='icon'/>Non-Executive Directors</NavLink></li>
              </div>
            </div>
+
+
+
           </ul>
         </li>
         <li className="nav-item">
-          <NavLink to="Contact us" className={({ isActive }) => (isActive ? 'active nav-link text-light' : 'nav-link text-light')}
+          <NavLink to="/Contact us" className={({ isActive }) => (isActive ? 'active nav-link text-light' : 'nav-link text-light')}
                 onClick={click ? handleClick : null} >Contact us  |</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="Blog" className={({ isActive }) => (isActive ? 'active nav-link text-light' : 'nav-link text-light')}
+          <NavLink to="/Blog" className={({ isActive }) => (isActive ? 'active nav-link text-light' : 'nav-link text-light')}
                 onClick={click ? handleClick : null} >  Blog</NavLink>
         </li>
       </ul>

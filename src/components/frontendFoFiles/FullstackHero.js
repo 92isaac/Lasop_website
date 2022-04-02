@@ -1,14 +1,14 @@
 import React from 'react';
 import Video from '../commonfiles/Video';
-// import Button from '../commonfiles/Button';
+import Button from '../commonfiles/Button';
 import Modal from '../commonfiles/Modal';
 
 
-const FullstackHero =()=>{
+const FullstackHero =(props)=>{
     return (<div className="container-fluid fullstackhero">
         <div className="row mx-5">
             <div className="col-md-6">
-            <h3>Fullstack Web Development</h3>
+            <h3>{props.title}</h3>
             <table>
                 <thead>
                     <tr>
@@ -37,17 +37,20 @@ const FullstackHero =()=>{
             <div className="row justify-content-md-center mt-5">
                 <div className="col-md-6 ">
 
-                    <Modal 
-                        className="btn btn-light"
+                    <Button 
+                        class="white_button"
                         btnName="Apply Now: Weekday"
+                        link="/apply"
                     />
                 </div>
                 <div className="col-md-6 ">
 
 
-                <Modal 
-                    className="btn btn-blue border-white text-light"
+                <Button
+                    class="blue_button"
                     btnName="Apply Now: Weekend"
+                    link="/apply"
+
                     />
                 </div>
             </div>
