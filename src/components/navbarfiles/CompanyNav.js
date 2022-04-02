@@ -45,14 +45,14 @@ const CompanyNav = () => {
                <div  className="row">
                  <span className='new'>We offer...</span>
                  <div className="col-md-6">
-                 <li><NavLink to="/action" className="dropdown-item" > <img src={ICON4} alt='' className='icons'/>Full-Stack Development</NavLink></li>
-                <li><NavLink to="/another" className="dropdown-item" > <img src={ICON5} alt='' className='icons'/>Frontend Web Development</NavLink></li>
-                <li><NavLink to="/sometext" className="dropdown-item" ><img src={ICON6} alt='' className='icons'/>UI/UX Design</NavLink></li>
+                 <li><NavLink to="/fullstack" className="dropdown-item" > <img src={ICON4} alt='' className='icons'/>Full-Stack Development</NavLink></li>
+                <li><NavLink to="/frontend" className="dropdown-item" > <img src={ICON5} alt='' className='icons'/>Frontend Web Development</NavLink></li>
+                <li><NavLink to="/uiuxdesign" className="dropdown-item" ><img src={ICON6} alt='' className='icons'/>UI/UX Design</NavLink></li>
                  </div>
                  <div className="col-md-6">
-                 <li><NavLink to="/action" className="dropdown-item" ><img src={ICON7} alt='' className='icons'/>App Development</NavLink></li>
-                <li><NavLink to="/another" className="dropdown-item" ><img src={ICON8} alt='' className='icons'/>Backend Web Development</NavLink></li>
-                <li><NavLink to="/sometext" className="dropdown-item" ><img src={ICON9} alt='' className='icons'/>Machine Learning</NavLink></li>
+                 <li><NavLink to="/appdevelopment" className="dropdown-item" ><img src={ICON7} alt='' className='icons'/>App Development</NavLink></li>
+                <li><NavLink to="/backend" className="dropdown-item" ><img src={ICON8} alt='' className='icons'/>Backend Web Development</NavLink></li>
+                <li><NavLink to="/machinelearning" className="dropdown-item" ><img src={ICON9} alt='' className='icons'/>Machine Learning</NavLink></li>
                  </div>
                </div>
               </ul>

@@ -7,9 +7,17 @@
 
 }
 
+.shift{
+    margin-left: 20px!important;
+}
+
 [class*='col']{
     font-weight: bold !important;
 }
 
+
+#but{
+    display: none;
+}
 
     

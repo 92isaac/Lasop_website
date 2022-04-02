@@ -15,19 +15,25 @@ import NavBar from '../navbarfiles/NavBar'
 
 const Apply = () => {
 
-  const [usersData, setUsersData]=useState({fName:"", oName:"", lName:"", email:"", address:"", tell:"", amount:""})
+  const [usersData, setUsersData]=useState({fName:"", lName:"", email:"", address:"", tell:"", amount:""})
 
   const [focus, setFocus] = useState(false)
 
 	const navigate = useNavigate()
 
+  const redirect=()=>{
+   navigate("/success", {replace: true});
+   alert('Application succsess; Press "OK" to proceed to payment page')
+
+  }
+
    const handleSubmit=(e)=>{
 	 e.preventDefault();
 
-   alert('Application succsess; Press "OK" to proceed to payment page')
+   
    localStorage.setItem('userData',JSON.stringify(usersData))
-   navigate("/flutterwave", {replace: true});
     setUsersData(usersData);
+    redirect()
     }
 
     const handleFocus =(e)=>{
@@ -41,13 +47,11 @@ const Apply = () => {
     <input type="text" name="fName" onChange={e=> setUsersData({...usersData,fName:e.target.value})}  value={usersData.fName} placeholder="FirstName" pattern='^[A-Za-z]{3,15}' onBlur={handleFocus} required focus={focus.toString()}/>
     <span>Input a valid firstname</span>
 
-    <input type="text" name="oName" onChange={e=> setUsersData({...usersData,oName:e.target.value})}  value={usersData.oName} placeholder="Other Name" pattern='^[A-Za-z]{3,15}' onBlur={handleFocus} required focus={focus.toString()}/>
-    <span>this field is required</span>
 
     <input type="text" name="lName" onChange={e=> setUsersData({...usersData,lName:e.target.value})}  value={usersData.lName} placeholder="LastName" pattern='^[A-Za-z]{3,15}' onBlur={handleFocus} required focus={focus.toString()}/>
         <span>this field is required</span>
 
-    <input type="Email" name="email" onChange={e=> setUsersData({...usersData,email:e.target.value})}  value={usersData.email} placeholder="Email" onBlur={handleFocus} required focus={focus.toString()}/>
+    <input type="email" name="email" onChange={e=> setUsersData({...usersData,email:e.target.value})}  value={usersData.email} placeholder="Email" onBlur={handleFocus} required focus={focus.toString()}/>
     <span>input a valid email account</span>
 
     <input type="address" name="address" onChange={e=> setUsersData({...usersData,address:e.target.value})}  value={usersData.address} placeholder="address" onBlur={handleFocus} focus={focus.toString()}/>

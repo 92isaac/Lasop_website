@@ -11,7 +11,7 @@ export default function App() {
   const config = {
     public_key: 'FLWPUBK_TEST-7f251b060e30a4e6328d606d77c37581-X',
     tx_ref: 'FRM_'+Math.floor((Math.random() * 1000000000) +1),
-    amount: 100,
+    amount: userData.amount,
     currency: 'NGN',
     payment_options: 'card,mobilemoney,ussd',
     customer: {
@@ -19,8 +19,15 @@ export default function App() {
       phonenumber:userData.tell,
       name: userData.fName,
     },
+
+    callback: (data)=> { // specified callback function
+      //console.log(data);
+    const reference = data.tx_ref;
+    alert('Payment complete! Reference: ' + reference);
+    },
+
     customizations: {
-      title: 'Training fee',
+      title: "Lagos School of Programming",
       description: 'Payment for Sofware Development training',
       logo: 'https://lasop.net/assets/img/logo.png',
     },
@@ -33,11 +40,14 @@ export default function App() {
       <NavBar/>
       <div className='alls'>
 
+ 
+
+
       
       <div className='container'>
         <div className='row justify-content-center align-item-center pt-5'>
         <div className='col-sm-12 col-md-6 col-lg-6 mx-auto text-center '>
-          <h3 >{userData.fName} {userData.oName} {userData.lName}</h3>
+          <h3 >{userData.fName} {userData.lName}</h3>
           <p>{`You are paying ${userData.amount} NGN  to Lagos School of Programming Limited.`}</p>
           <p>Press the button to proceed</p>
        
@@ -47,6 +57,9 @@ export default function App() {
         onClick={() => {
           handleFlutterPayment({
             callback: (response) => {
+              const reference = response.tx_ref;
+             alert('Payment complete! Reference: ' + reference);
+      
                console.log(response);
                 closePaymentModal() // this will close the modal programmatically
             },

@@ -13,6 +13,7 @@ import Mentors from './components/Mentors'
 import Blog from './components/pages/Blog'
 import Apply from './components/appFormfiles/Apply'
 import Flutterwave from './components/Flutterwave'
+import Success from './components/Success'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 <Route path="/" element={ <Home/> } />
 <Route path="/fullstack" element={ <Fullstack/> } />
 <Route path="/flutterwave" element={ <Flutterwave/> } />
+<Route path="/success" element={ <Success/> } />
 <Route path="/FAQPage" element={ <FAQPage/> } />
 {/* <Route path="/" element={ <Home/> } /> */}
 <Route path="/company" element={ <Company/> } />

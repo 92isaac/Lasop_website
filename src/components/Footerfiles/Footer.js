@@ -21,8 +21,7 @@ function Footer() {
 
                <a href="mailto:info@lasop.net" ><i className='fas fa-envelope'></i>info@lasop.net |</a>
                <br/>
-               <a href="tel:+234 702 571 3326" target="_blank"><i className='fas fa-phone'></i>+234 702 571 3326 
- |              +234 807 402 4260</a>
+               <a href="tel:+234 702 571 3326" target="_blank"><i className='fas fa-phone'></i>+234 702 571 3326 </a>
                <br/>
                <a href="https://wa.me/7025713326" target="_blank"><i className="fa-brands fa-whatsapp-square"></i>+234 702 571 3326</a>
                <br/>
